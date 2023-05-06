@@ -7,4 +7,4 @@ Note: Just make it executable with chmod and place this bash file in /usr/bin/ o
 
 Usage: server or server 1234 and it will listen to that port.
 
-I hope you this saves your time too and you like it :)
+I hope this saves your time too and you like it :)
