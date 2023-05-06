@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if [ "$#" -eq 1 ]; then
+    port=$1
+else
+    port=9001
+fi
+
+fuser -k "$port"/tcp
+python3 -m http.server "$port" --directory "$(pwd)"
